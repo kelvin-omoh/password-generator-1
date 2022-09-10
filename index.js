@@ -21,7 +21,7 @@ submit.addEventListener("click",() => {
     (pSymbols.checked) ? initialpassword +=symbols: " "; 
 
     password.value = generate(pLength.value,initialpassword);
-    alert("generated")
+    // alert("passcode generated")
 })
 
 function generate(l,init_p){

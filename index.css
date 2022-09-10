@@ -5,7 +5,7 @@
 }
 
 body{
-    background:linear-gradient(80deg , rgb(199, 41, 27), rgb(147, 138, 145));
+    background:linear-gradient(220deg , rgb(1, 109, 139),rgb(0, 56, 96), rgb(10, 148, 100));
     background-repeat: no-repeat;
     height: auto;
     width: 100vw;
@@ -98,6 +98,7 @@ font-weight: 900;
    color: rgba(74, 243, 252, 0.621);
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-transform: capitalize;
+   font-size: .64rem;
 }
 .footer .text .features{
     color: rgb(67, 154, 230);
@@ -132,3 +133,8 @@ font-weight: 900;
     text-decoration: underline;
 }
 
+@media (min-width:667px) {
+ .container{
+    width:40% ;
+ }   
+}
