@@ -143,7 +143,7 @@ body{
 .container{
     background: #06050093;
     color: rgb(193, 193, 193);
-    font-size: larger;
+    /* font-size: larger; */
     padding: 20px;
     border-radius: .3rem;
     width: 87%;
