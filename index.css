@@ -148,6 +148,9 @@ body{
     border-radius: .3rem;
     width: 87%;
 }
+.logo{
+    position: fixed;
+}
 
 h1{
     font-size: 3rem;text-align: center;
@@ -212,6 +215,7 @@ cursor: pointer;
    text-align: center;
    width: 100%;
    margin-top: 3rem;
+   line-height: 1rem;
    color: rgba(74, 243, 252, 0.621);
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-transform: capitalize;
@@ -229,7 +233,7 @@ cursor: pointer;
  .footer .container .text {
     color: aliceblue;
     text-align:justify;
-    line-height:2rem;
+    line-height:1.3rem;
     padding: 0 3rem;
     word-spacing:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
